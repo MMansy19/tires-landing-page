@@ -1,0 +1,184 @@
+{
+  "metadata": {
+    "title": "Gresco Tires | Premium Quality Tires in Egypt",
+    "titleTemplate": "%s | Gresco Tires",
+    "description": "Gresco Tires - Official distributor of the world's best tire brands in Egypt. Passenger, SUV, and commercial vehicle tires with professional installation service.",
+    "siteName": "Gresco Tires"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "products": "Products",
+    "blog": "Blog",
+    "contact": "Contact",
+    "callUs": "Call Us",
+    "language": "AR"
+  },
+  "hero": {
+    "badge": "Egypt's Leading Tire Distributor",
+    "titleLine1": "Drive with",
+    "titleLine2": "Confidence",
+    "titleAnd": "&",
+    "titleLine3": "Safety",
+    "description": "Premium tires from world-renowned brands, expert installation, and unparalleled service for all vehicle types.",
+    "exploreProducts": "Explore Products",
+    "getQuote": "Get a Quote",
+    "genuine": "100% Genuine",
+    "genuineDesc": "Official Dealer",
+    "expertFitting": "Expert Fitting",
+    "expertFittingDesc": "Pro Technicians",
+    "fastService": "Fast Service",
+    "fastServiceDesc": "Quick Turnaround"
+  },
+  "brands": {
+    "title": "Trusted Partners & Official Distributor"
+  },
+  "about": {
+    "subtitle": "About Gresco Tires",
+    "title": "Setting the Standard for Tire Excellence in Egypt",
+    "description": "At Gresco Tires, we believe that safety and performance start where the rubber meets the road. Since our inception, we have been committed to providing Egyptian drivers with the highest quality tires and unparalleled automotive services.",
+    "feature1": "Over 20 years of industry experience",
+    "feature2": "Authorized dealer for premium global brands",
+    "feature3": "State-of-the-art installation equipment",
+    "feature4": "Dedicated customer support team",
+    "yearsCount": "20+",
+    "yearsLabel": "Years of\nExcellence",
+    "customersCount": "10k+",
+    "customersLabel": "Happy Customers"
+  },
+  "services": {
+    "subtitle": "Our Expertise",
+    "title": "Comprehensive Auto Services",
+    "description": "Beyond premium tires, we offer a full suite of automotive services to keep your vehicle running safely and efficiently on Egyptian roads.",
+    "tireFitting": "Tire Fitting & Balancing",
+    "tireFittingDesc": "Precision fitting and dynamic balancing for a smooth, vibration-free ride.",
+    "wheelAlignment": "Wheel Alignment",
+    "wheelAlignmentDesc": "Advanced 3D alignment to ensure even tire wear and optimal handling.",
+    "brakeServices": "Brake Services",
+    "brakeServicesDesc": "Comprehensive brake inspections and pad replacements for your safety.",
+    "suspensionCheck": "Suspension Check",
+    "suspensionCheckDesc": "Thorough inspection of shocks and struts to maintain vehicle stability.",
+    "batteryReplacement": "Battery Replacement",
+    "batteryReplacementDesc": "Quick diagnostics and replacement with premium battery brands.",
+    "nitrogenInflation": "Nitrogen Inflation",
+    "nitrogenInflationDesc": "Maintain tire pressure longer and improve fuel efficiency with nitrogen."
+  },
+  "productsSection": {
+    "subtitle": "Premium Selection",
+    "title": "Tires for Every Journey",
+    "description": "Explore our extensive catalog of tires designed to meet the specific demands of your vehicle and driving style.",
+    "viewAll": "View All Products",
+    "passengerCars": "Passenger Cars",
+    "passengerCarsDesc": "Comfort and performance for daily commuting.",
+    "suv": "SUVs & 4x4",
+    "suvDesc": "Durability and traction for off-road adventures.",
+    "commercial": "Commercial Vehicles",
+    "commercialDesc": "Heavy-duty tires for maximum load capacity."
+  },
+  "testimonials": {
+    "subtitle": "Client Stories",
+    "title": "What Our Customers Say",
+    "ahmed": {
+      "name": "Ahmed Hassan",
+      "role": "Business Owner",
+      "content": "Gresco Tires provided exceptional service. The team was professional, and the tire fitting was incredibly fast. Highly recommended for anyone in Cairo."
+    },
+    "mona": {
+      "name": "Mona El-Sayed",
+      "role": "Daily Commuter",
+      "content": "I was unsure which tires to get for my SUV, but their experts guided me perfectly. The prices are competitive, and the quality is unmatched."
+    },
+    "karim": {
+      "name": "Karim Youssef",
+      "role": "Fleet Manager",
+      "content": "We rely on Gresco for our entire company fleet. Their commercial tires are durable, and their maintenance service keeps our vehicles on the road."
+    }
+  },
+  "contact": {
+    "subtitle": "Get In Touch",
+    "title": "Visit Our Service Center",
+    "description": "Have questions about our products or need to schedule a service? Our team is ready to assist you with expert advice and prompt support.",
+    "locationTitle": "Our Location",
+    "locationValue": "123 Tire Street, Industrial Zone\nCairo, Egypt",
+    "phoneTitle": "Phone Number",
+    "phoneValue": "+20 10 0000 0000\n+20 2 2222 2222",
+    "emailTitle": "Email Address",
+    "emailValue": "info@grescotires.com\nsupport@grescotires.com",
+    "hoursTitle": "Working Hours",
+    "hoursValue": "Saturday - Thursday: 9:00 AM - 10:00 PM\nFriday: 1:00 PM - 10:00 PM",
+    "formTitle": "Send us a Message",
+    "firstName": "First Name",
+    "firstNamePlaceholder": "John",
+    "lastName": "Last Name",
+    "lastNamePlaceholder": "Doe",
+    "email": "Email Address",
+    "emailPlaceholder": "john@example.com",
+    "phone": "Phone Number",
+    "phonePlaceholder": "+20 10 0000 0000",
+    "message": "Message",
+    "messagePlaceholder": "How can we help you?",
+    "send": "Send Message"
+  },
+  "footer": {
+    "brandName": "Gresco Tires",
+    "brandDescription": "Official distributor of the world's best tire brands in Egypt. We offer premium quality tires and professional automotive services.",
+    "quickLinks": "Quick Links",
+    "ourServices": "Our Services",
+    "contactUs": "Contact Us",
+    "address": "123 Tire Street, Industrial Zone, Cairo, Egypt",
+    "rights": "All Rights Reserved",
+    "tireFitting": "Tire Fitting",
+    "wheelAlignment": "Wheel Alignment",
+    "brakeService": "Brake Services",
+    "suspension": "Suspension Check",
+    "batteries": "Batteries",
+    "nitrogen": "Nitrogen Inflation"
+  },
+  "whatsapp": {
+    "tooltip": "Chat with us on WhatsApp"
+  },
+  "productsPage": {
+    "title": "Our Products",
+    "metaTitle": "Products",
+    "metaDescription": "Browse our extensive collection of premium quality tires for all vehicle types.",
+    "description": "Discover our wide range of tires designed to meet your vehicle's needs and driving style.",
+    "searchPlaceholder": "Search for a tire...",
+    "allCategories": "All Categories",
+    "allBrands": "All Brands",
+    "search": "Search",
+    "noProducts": "No products found",
+    "changeFilters": "Try changing your search criteria",
+    "orderNow": "Order Now via WhatsApp",
+    "backToProducts": "Back to Products",
+    "descriptionLabel": "Description",
+    "additionalInfo": "Additional Information",
+    "category": "Category",
+    "brand": "Brand",
+    "dateAdded": "Date Added",
+    "notFound": "Product not found",
+    "categoryPassenger": "Passenger Cars",
+    "categorySUV": "SUV & 4x4",
+    "categoryCommercial": "Commercial Vehicles"
+  },
+  "blogPage": {
+    "title": "Blog",
+    "metaTitle": "Blog",
+    "metaDescription": "Latest news, articles, and tips from Gresco Tires about tire maintenance and the automotive world.",
+    "description": "Follow the latest news and tips in the world of cars and tires from Gresco Tires experts.",
+    "noPosts": "No articles available",
+    "checkBack": "Check back soon for new articles.",
+    "readMore": "Read More",
+    "backToBlog": "Back to Blog",
+    "author": "Gresco Team",
+    "notFound": "Article not found",
+    "contentError": "Error displaying content"
+  },
+  "common": {
+    "currency": "EGP",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "previous": "Previous",
+    "next": "Next"
+  }
+}

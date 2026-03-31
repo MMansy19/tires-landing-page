@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-cairo, var(--font-inter)), ui-sans-serif, system-ui, sans-serif;
+  --color-primary: #0A2540;
+  --color-primary-light: #1A3A5A;
+  --color-accent: #FF6B00;
+  --color-accent-hover: #E65A00;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900;
+  }
+}
+
+/* Marquee animation for brands carousel */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(50%); }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+[dir="rtl"] .animate-marquee {
+  animation-direction: reverse;
+}
+
+/* TipTap editor styles */
+.tiptap {
+  @apply min-h-[200px] outline-none;
+}
+.tiptap p {
+  @apply mb-4;
+}
+.tiptap h1, .tiptap h2, .tiptap h3 {
+  @apply font-bold mb-4;
+}
+.tiptap h1 { @apply text-3xl; }
+.tiptap h2 { @apply text-2xl; }
+.tiptap h3 { @apply text-xl; }
+.tiptap ul, .tiptap ol {
+  @apply pr-6 mb-4;
+}
+.tiptap ul { @apply list-disc; }
+.tiptap ol { @apply list-decimal; }
+.tiptap img {
+  @apply rounded-xl max-w-full my-4;
+}
