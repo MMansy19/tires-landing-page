@@ -507,8 +507,8 @@ NEXT_PUBLIC_SUPABASE_URL="YOUR_SUPABASE_URL"
 NEXT_PUBLIC_SUPABASE_ANON_KEY="YOUR_SUPABASE_ANON_KEY"
 
 # ImageKit
-NEXT_PUBLIC_IMAGEKIT_URL_ENDPOINT="YOUR_IMAGEKIT_URL_ENDPOINT"
-NEXT_PUBLIC_IMAGEKIT_PUBLIC_KEY="YOUR_IMAGEKIT_PUBLIC_KEY"
+IMAGEKIT_URL_ENDPOINT="YOUR_IMAGEKIT_URL_ENDPOINT"
+IMAGEKIT_PUBLIC_KEY="YOUR_IMAGEKIT_PUBLIC_KEY"
 IMAGEKIT_PRIVATE_KEY="YOUR_IMAGEKIT_PRIVATE_KEY"
 ```
 
@@ -598,9 +598,9 @@ let imagekit: ImageKit | null = null;
 
 export function getImageKit() {
   if (!imagekit) {
-    const publicKey = process.env.NEXT_PUBLIC_IMAGEKIT_PUBLIC_KEY;
+    const publicKey = process.env.IMAGEKIT_PUBLIC_KEY;
     const privateKey = process.env.IMAGEKIT_PRIVATE_KEY;
-    const urlEndpoint = process.env.NEXT_PUBLIC_IMAGEKIT_URL_ENDPOINT;
+    const urlEndpoint = process.env.IMAGEKIT_URL_ENDPOINT;
 
     if (!publicKey || !privateKey || !urlEndpoint) {
       throw new Error('ImageKit environment variables are missing');

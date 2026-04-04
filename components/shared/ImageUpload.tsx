@@ -5,8 +5,8 @@ import { IKContext, IKUpload } from 'imagekitio-react';
 import Image from 'next/image';
 import { ImagePlus, Loader2, X } from 'lucide-react';
 
-const urlEndpoint = process.env.NEXT_PUBLIC_IMAGEKIT_URL_ENDPOINT || '';
-const publicKey = process.env.NEXT_PUBLIC_IMAGEKIT_PUBLIC_KEY || '';
+const urlEndpoint = process.env.IMAGEKIT_URL_ENDPOINT || '';
+const publicKey = process.env.IMAGEKIT_PUBLIC_KEY || '';
 
 const authenticator = async () => {
   const response = await fetch('/api/imagekit/auth');
