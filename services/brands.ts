@@ -2,26 +2,34 @@ import { createClient } from '@/lib/supabase/server';
 import type { Brand } from '@/types/database';
 
 export async function getBrands(): Promise<Brand[]> {
-  const supabase = await createClient();
-  const { data, error } = await supabase
-    .from('brands')
-    .select('*')
-    .order('name');
+  try {
+    const supabase = await createClient();
+    const { data, error } = await supabase
+      .from('brands')
+      .select('*')
+      .order('name');
 
-  if (error) return [];
-  return data as Brand[];
+    if (error) return [];
+    return data as Brand[];
+  } catch {
+    return [];
+  }
 }
 
 export async function getBrandById(id: string): Promise<Brand | null> {
-  const supabase = await createClient();
-  const { data, error } = await supabase
-    .from('brands')
-    .select('*')
-    .eq('id', id)
-    .single();
+  try {
+    const supabase = await createClient();
+    const { data, error } = await supabase
+      .from('brands')
+      .select('*')
+      .eq('id', id)
+      .single();
 
-  if (error) return null;
-  return data as Brand;
+    if (error) return null;
+    return data as Brand;
+  } catch {
+    return null;
+  }
 }
 
 export async function createBrand(brand: Omit<Brand, 'id' | 'created_at'>): Promise<Brand> {
