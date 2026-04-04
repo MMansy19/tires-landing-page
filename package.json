@@ -28,7 +28,7 @@
     "imagekitio-react": "^4.3.0",
     "lucide-react": "^0.553.0",
     "motion": "^12.23.24",
-    "next": "15.3.3",
+    "next": "15.3.8",
     "next-intl": "^4.8.3",
     "postcss": "^8.5.6",
     "react": "^19.2.1",
